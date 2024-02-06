@@ -1,0 +1,32 @@
+*{
+  text-decoration: none;
+  font-family: 'Lato Regular', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container{
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button {
+  color: #FFF;
+	line-height: 25px;
+	border-radius: 4px;
+	border: 1px solid #01996d;
+	background: #01996d;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.subtitle {
+font-family: 'Georgia Bold';
+font-size: 50px;
+font-weight: 700;
+line-height: 157%;
+}

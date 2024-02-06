@@ -1,0 +1,38 @@
+.header {
+	&__wrapper {
+    padding: 17px 0;
+		display: flex;
+		justify-content: space-between;
+    align-items: center;
+		
+		&-button1{
+			cursor: pointer;
+		}
+	}
+}
+
+.navigation__list {
+	display: flex;
+  gap: 72px;
+	cursor: pointer;
+
+	&-item {
+		&_link {
+			color: #292929;
+			font-family: 'Lato Regular', sans-serif;
+			font-size: 20px;
+			font-weight: 500;
+      transition: 1s;
+
+      &:hover{
+        color: #FFF;
+        background-color: #01996d;
+      }
+		}
+	}
+}
+
+.button2{
+	padding: 13px 50px;
+	margin-left: 35px;
+}

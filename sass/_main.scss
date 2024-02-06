@@ -1,0 +1,27 @@
+.main {
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh - 87px);
+	
+	&__title {
+		color: #01996d;
+		font-family: Georgia Bold;
+		font-size: 65px;
+		font-weight: 700;
+		padding-top: 175px;
+		margin-bottom: 30px;
+	}
+
+	&__description {
+		max-width: 420px;
+		height: 123px;
+		color: #484848;
+		line-height: 157%;
+		margin-bottom: 18px;
+	}
+}
+
+.button3 {
+	padding: 20px 50px;
+}

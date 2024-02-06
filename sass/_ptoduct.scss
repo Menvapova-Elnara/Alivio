@@ -1,0 +1,51 @@
+.product {
+	color: rgb(66, 66, 66);
+	font-family: "Lato Regular";
+	font-weight: 600;
+	line-height: 157%;
+
+	&__wrapper {
+		display: flex;
+		justify-content: end;
+    gap: 87px;
+		padding: 120px 0 168px 0;
+		&-left {
+			position: relative;
+
+			&::after {
+				position: absolute;
+				content: "";
+				background: url(../img/Card.png);
+				width: 296.14px;
+				height: 293.9px;
+				left: -80px;
+				bottom: -55px;
+			}
+			&_img {
+			}
+		}
+		&-right {
+			max-width: 585px;
+			&_name {
+				font-size: 25px;
+				margin-bottom: 10px;
+			}
+
+			&_title {
+				color: rgb(1, 153, 109);
+				margin-bottom: 20px;
+			}
+
+			&_description {
+				font-size: 25px;
+				font-weight: 400;
+				letter-spacing: 1px;
+				margin-bottom: 40px;
+			}
+
+			&_button {
+				padding: 20px 50px;
+			}
+		}
+	}
+}
